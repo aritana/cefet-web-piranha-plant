@@ -17,6 +17,16 @@ body {
     font-size: 14px;
 }
 
+html,
+body {
+    min-height: 100%;
+}
+
+body.loja {
+    background-image: url("../imagens/desenho-loucao.jpg");
+    background-size: cover;
+}
+
 p {
     text-align: justify;
 }
@@ -37,4 +47,24 @@ img {
     margin-left: auto;
     margin-right: auto;
     border: 8px solid limegreen;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th.especie {
+    font-style: italic;
+}
+
+thead {
+    background-color: darkslategray;
+    color: white;
 }
