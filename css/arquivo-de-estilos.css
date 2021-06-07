@@ -19,7 +19,8 @@ body {
 }
 
 html,
-body {
+body,
+body.index {
     min-height: 100%;
 }
 
